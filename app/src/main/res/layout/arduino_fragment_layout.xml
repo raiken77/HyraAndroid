@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Microcontroller"
+        android:id="@+id/microcontrollerText" />
+
+    <EditText
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/microcontrollerValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Features"
+        android:id="@+id/featuresText" />
+
+    <EditText
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/featuresValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Clock speed"
+        android:id="@+id/clockSpeedText" />
+
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/clockSpeedVal" />
+</LinearLayout>

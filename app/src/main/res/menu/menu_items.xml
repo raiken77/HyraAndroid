@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="comp5216.sydney.edu.au.hyra.MenuActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/requests"
+        android:icon = "@drawable/request"
+        android:title="Requests"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="profilePage"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/logoutButton"
+        android:title="logout"
+        app:showAsAction="never"/>
+
+
+</menu>

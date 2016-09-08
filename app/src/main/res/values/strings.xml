@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Hyra</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">registerActivity</string>
+    <string name="title_activity_items">ItemsActivity</string>
+    <string name="email_error">Use your uni email address</string>
+
+
+    <!-- Array to populate the listview with category data-->
+
+    <string-array name="categories">
+
+        <item>books</item>
+        <item>Laptop chargers</item>
+        <item>Arduino Kits</item>
+        <item>Calculators</item>
+        <item>Cables</item>
+    </string-array>
+
+
+    <string-array name="hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="title_activity_online_items">OnlineItemsActivity</string>
+    <string name="title_activity_item_details">ItemDetailsActivity</string>
+    <string name="title_activity_rent_item">RentItemActivity</string>
+    <string name="title_activity_chat_rooms">ChatRoomsActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_request_item">RequestItemActivity</string>
+    <string name="title_activity_requests">RequestsActivity</string>
+    <string name="title_activity_check_request">CheckRequestActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>
